@@ -30,9 +30,6 @@ function updateDisplayBoard() {
   });
 }
 
-// Listen to button clicks
-const buttons = document.querySelectorAll(".letter-btn");
-buttons.forEach((btn) => btn.addEventListener("click", getUserInput));
 
 // Function that updates a button
 function updateButton(letter, correct) {
@@ -72,6 +69,10 @@ const hangmanImage = document.querySelector("#hangman-image");
 function updateImage() {
   hangmanImage.src = `/images/hangman${wrongLetters.length}.png`;
 }
+
+// Listen to button clicks
+const buttons = document.querySelectorAll(".letter-btn");
+buttons.forEach((btn) => btn.addEventListener("click", getUserInput));
 
 // Handle a button click
 function getUserInput() {

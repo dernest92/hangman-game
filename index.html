@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="width=device-width,initial-scale"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <img src="" alt="" srcset="" />
+    <title>Hangman Game</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <header>
+        <h1>Hangman</h1>
+        <h2>Instructions</h2>
+      </header>
+      <section>
+        <ul>
+          <li>
+            Object of the game is to reveal the correct word before the hangman
+            is drawn.
+          </li>
+          <li>Click a letter.</li>
+          <li>
+            If you pick a correct letter in the mystery word it will turn green
+            and appear in the spaces where letters are located in the word.
+          </li>
+          <li>
+            If a letter is wrong it will turn red and a part of the hangman will
+            appear. (Ex. head, body, one arm, etc.)
+          </li>
+          <li>
+            If player chooses wrong nine times the hangman has been created and
+            the player loses.
+          </li>
+        </ul>
+        <div class="game-container">
+          <div class="hangmanboard">
+            <img id="hangman-image" src="/images/hangman0.png" />
+          </div>
+          <p id="wordboard"></p>
+          <section class="letterbuttons">
+            <button class="letter-btn">A</button>
+            <button class="letter-btn">B</button>
+            <button class="letter-btn">C</button>
+            <button class="letter-btn">D</button>
+            <button class="letter-btn">E</button>
+            <button class="letter-btn">F</button>
+            <button class="letter-btn">G</button>
+            <button class="letter-btn">H</button>
+            <button class="letter-btn">I</button>
+            <button class="letter-btn">J</button>
+            <button class="letter-btn">K</button>
+            <button class="letter-btn">L</button>
+            <button class="letter-btn">M</button>
+            <button class="letter-btn">N</button>
+            <button class="letter-btn">O</button>
+            <button class="letter-btn">P</button>
+            <button class="letter-btn">Q</button>
+            <button class="letter-btn">R</button>
+            <button class="letter-btn">S</button>
+            <button class="letter-btn">T</button>
+            <button class="letter-btn">U</button>
+            <button class="letter-btn">V</button>
+            <button class="letter-btn">W</button>
+            <button class="letter-btn">X</button>
+            <button class="letter-btn">Y</button>
+            <button class="letter-btn">Z</button>
+          </section>
+        </div>
+      </section>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

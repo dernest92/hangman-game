@@ -1,0 +1,79 @@
+body {
+  display: grid;
+  background-color: rgb(177, 174, 174);
+  margin: auto 10px;
+}
+header {
+  text-align: center;
+  font-size: 80px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 60px;
+}
+ul {
+  border: 8px dotted black;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.instructions {
+  font-size: 30px;
+  align-content: center;
+}
+button {
+  font-size: 30px;
+  padding: 10px;
+  /* width: 60%; */
+  height: 50%;
+  width: 10%;
+}
+.container {
+  border: 6px solid black;
+  font-size: 30px;
+  align-content: center;
+}
+.game-container {
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  text-align: center;
+}
+.hangmanboard img {
+  width: 60%;
+}
+#wordboard {
+  /* border: 3px solid black; */
+  /* width: 95%; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#wordboard span {
+  margin-right: 5px;
+}
+footer {
+  border-top: 10px solid black;
+}
+
+.undo-button {
+}
+
+.letterbuttons > button {
+  margin: 5px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+.btn-correct {
+  color: green;
+}
+
+.btn-wrong {
+  color: red;
+}
